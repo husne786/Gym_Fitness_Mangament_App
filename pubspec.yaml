@@ -1,0 +1,66 @@
+name: gym_fitness_app
+description: A complete gym and fitness management app
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.7
+  table_calendar: ^3.0.9
+  percent_indicator: ^4.2.2
+  provider: ^6.1.2
+  shared_preferences: ^2.2.0
+  fl_chart: ^0.68.0
+  video_player: ^2.8.0
+  share_plus: ^7.0.0
+  intl: ^0.19.0
+  path_provider: ^2.1.0
+  image_picker: ^1.0.0
+  mask_text_input_formatter: ^2.5.0
+  timezone: ^0.9.4
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo1.jpg
+    - assets/images/google.jpeg
+    - assets/images/facebook.jpeg
+    - assets/images/profile.jpg
+    - assets/images/gym.jpg
+    - assets/images/livefit.jpeg
+    - assets/images/Squats.jpg
+    - assets/images/transformation.png
+    - assets/images/strength.jpeg
+    - assets/images/cardio.jpg
+    - assets/images/yoga.jpeg
+    - assets/images/workout_image.jpeg
+    - assets/images/plank.jpg
+    - assets/images/deadlift.jpeg
+    - assets/images/push_up.jpeg
+    - assets/videos/barbell_squat.mp4
+    - assets/videos/pull_up.mp4
+    - assets/videos/deadlift.mp4
+    - assets/videos/treadmill.mp4
+    - assets/videos/bench_press.mp4
+    - assets/videos/overhead_press.mp4
+    - assets/videos/stair_climber.mp4
+    - assets/videos/Leg_press.mp4
+    - assets/videos/jumpping_rope.mp4
+    - assets/videos/rowing_machine.mp4
+
+
+   
